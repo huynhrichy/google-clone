@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    min-height: 100%;
+}
+ol, ul {
+    list-style: none;
+    margin-right: 20px;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+
+.wrapper {
+	position: relative;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	background-color: #F2F2F9;
+	bottom: 0;
+	height: 6%;
+	border-top: 1px solid #E4E4E4;
+	display: inherit;
+	clear: both;
+}
+
+header {
+    float: right;
+    position: relative;
+}
+
+#centre {
+    position: relative;
+    top: 185px;
+    display: block;
+    text-align:  center;
+}
+
+#logo {
+	margin-bottom: 20px;
+}
+
+#google-logo {
+	width: 280px;
+	display: inline-block;
+	margin-left: 303px;
+}
+
+#search-form {
+    position: relative;
+    margin: auto;
+}
+
+#search-box {
+    padding-left: 8px;
+    padding-right: 8px;
+	width: 560px;
+    height: 25px;
+	border: 1px solid #CDCDCD;
+}
+
+#search-box:hover {
+	border: 1px solid rgba(0,0,0,.35);
+}
+
+#search-box:focus {
+	border: 1px solid #4285F4;
+}
+
+#mic {
+	height: 23px;
+	width: 23px;
+	position: absolute;
+	display: inline;
+	padding-top: 3px;
+	right: 398px;
+	opacity: 0.825;
+}
+
+#mic:hover {
+	opacity: 1;
+}
+
+#search-buttons {
+	margin-top: 16px;
+}
+
+#search-buttons button {
+	color: #444444;
+	border: 1px solid #DBDBDB;
+	border-radius: 2px;
+	background-color: #F3F3F3;
+	font-size: 11px;
+	font-weight: 700;
+	padding: 6px 10px 6px 10px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+#search-buttons button:hover {
+	box-shadow: 0px 1px 0px rgba(0,0,0,.15);
+	border: 1px solid #B8B8B8;
+	background: linear-gradient(#f8f8f8,#f1f1f1);
+}
+
+#business {
+	float: left;
+}
+
+#terms-settings {
+    float: right;
+}
+
+.arial {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+#account li {
+	display: inline-block;	
+	margin: 20px 6px 0 6px;
+	text-align: center;
+}
+
+#account a {
+	color: black;
+	text-decoration: none;
+}
+
+#account a:hover {
+	text-decoration: underline;
+}
+
+#apps {
+	vertical-align: middle;
+	margin-top: -5px;
+	width: 67%;
+}
+
+#apps:hover {
+	color: black;
+}
+
+#account ul li:nth-child(4) img {
+	cursor: default;
+	opacity: 0.67;
+}
+
+#account ul li:nth-child(4) img:hover {
+	cursor: default;
+	opacity: 1; 
+}
+
+#account ul li:nth-child(5) a {
+	cursor: default;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 6px 12px 6px 12px;
+	color: white;
+	border: 1px solid #4285f4;
+	background: linear-gradient(#4387FD,#4683EA);
+}
+
+#account ul li:nth-child(5) a:hover {
+	box-shadow: 0px 1px 0px rgba(0,0,0,.15);
+}
+
+#account ul li:nth-child(5) a:active {
+	background: rgb(61,121,225);
+}
+
+#business a, #terms-settings a{
+	text-decoration: none;
+	color: #666;
+	padding: 0 12px 0 12px;
+}
+
+#business a:hover, #terms-settings a:hover {
+	text-decoration: underline;
+}
+
+#business, #terms-settings {
+	margin-top: 13px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
